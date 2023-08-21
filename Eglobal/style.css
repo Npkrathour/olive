@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f6f4f5;
+}
+
+.mainColor {
+    color: #5eb74a !important;
+}
+/* =================================My Location==================== */
+.para{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .para-1{
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center; 
+  }
+/* =================================My Location==================== */  
+.section{
+    background-image: url(img/BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* =========================Icon=================== */
+.bg-2{
+    background-color: #eaeaea;
+}
+
+/* =========================Secure three coloumn=================== */
+.section-1{
+    background-image: url(img/Banner_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+}
+
+.mainBg {
+    background-color: #5eb74a !important;
+}
+
+.rightBox {
+    margin-left: -180px;
+    z-index: 99;
+}
+
+.leftBox {
+    margin-right: -180px;
+    z-index: 99;
+}
+
+.topSideBox {
+    margin-top: -40px;
+}
+
+.bg-review-1 {
+    background-image: url(img/Category_IMG_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.bg-review-3 {
+    background-image: url(img/Category_IMG_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.bg-review-2 {
+    background-image: url(img/Category_IMG_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute !important;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    font-weight: 500;
+    color: #5eb74a;
+    background-color: white;
+    width: 45px !important;
+    height: 45px !important;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span {
+    display: block !important;
+    position: static;
+    width: 45px, !important;
+    height: 45px !important;
+    line-height: 35px;
+    text-align: center;
+}
+
+.loginBtn {
+    border: 2px solid #5eb74a;
+    color: #5eb74a;
+}
+
+.loginBtn:hover {
+    background-color: #5eb74a;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: lightgrey;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5eb74a;
+    border-radius: 10px;
+}
+
+footer ul li {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.heroSection {
+    background-image: url('img/Banner_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

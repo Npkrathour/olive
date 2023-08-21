@@ -1,0 +1,36 @@
+@media(max-width:993px) {
+    .rightBox {
+        margin-left: auto;
+        z-index: 99;
+    }
+
+    .leftBox {
+        margin-right: auto;
+        z-index: 99;
+    }
+
+    .topSideBox {
+        margin-top: auto;
+    }
+
+    .bg-review-1,
+    .bg-review-3,
+    .bg-review-2 {
+        height: 35vh;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        font-size: 40px;
+        font-weight: 500;
+        background-color: white;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        right: -10px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        left: -10px;
+    }
+}
